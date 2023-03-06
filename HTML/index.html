@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio ☽︎*..*🌑︎ 。*☁</title>
+        <link rel="stylesheet" href="../CSS/style.css">
+        <script src="../Javascript/script.js"></script>
+    </head>
+    <body class="wallpaper">
+        <nav class="barraSuperior">
+            <ul class="nav">
+              <li><a href="#" onclick="selectOption(1); showDiv('div1')" onclick="selectOption(1)" class="active"><img src="../Media/img/house.svg" width="30px"><span>About me</span></a></li>
+              <li><a href="#" onclick="selectOption(2); showDiv('div2')" onclick="selectOption(1)"><img src="../Media/img/folder.svg" width="30px"><span>Projects</span></a></li>
+            </ul>
+        </nav><br>
+        <div class="main-block">
+            <div class="block-1" id="div1">
+                <div class="profile"><a href="https://github.com/Bremgovi"><img src="../Media/img/Kaguya profile.jpg" class="profile"></a></div>
+                <div class="description">
+                    <p class="title">Bremgovi</p>
+                    <p class="text"> 
+                        ☕ Java and Minecraft dev with experience on Mod Packs and Server Configuration.<br>
+                        🐍 Python and API REST.<br>
+                        🐧 Linux and UNIX enjoyer.<br>
+                        📄 Web dev: CSS, PHP, HTML, JS
+                    </p><br>
+                    <img src="../Media/icons/js.png" class="icon">
+                    <img src="../Media/icons/css.png" class="icon">
+                    <img src="../Media/icons/html.png" class="icon">
+                    <img src="../Media/icons/python.png" class="icon">
+                    <img src="../Media/icons/java.png" class="icon">
+                    <img src="../Media/icons/php.png" class="icon">
+                    <img src="../Media/icons/linux.png" class="icon">
+                    <img src="../Media/icons/mysql.png" class="icon">
+                </div>
+                <div class="main-text">
+                    <p class="title">Who am i?</p>
+                    <p class="text"> 
+                        Hello, my name is Emilio, also known as Bremgovi ヾ(≧▽≦*).<br>
+                        I'm a 18yo programmer who is very interested on developing new useful applications and programs 💻.<br>
+                        <ul>
+                            <li>💻 APIs</li>
+                            <li>📕 Libraries</li>
+                            <li>🤍 Utilities and API Interfaces</li>
+                            <li>🌟 Frontend and Backend</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="block-2" id="div2" style="display: none;">
+                <div id="repos-container"></div>
+            </div>
+        </div>
+        <div class="secondary-block">
+            <div class="side-block">
+                <p class="title">About me</p>
+                    <table>
+                        <tr>
+                            <td class="col1">Age</td>
+                            <td class="col2">18</td>
+                        </tr>
+                        <tr>
+                            <td class="col1">Birthday</td>
+                            <td class="col2">July, 06</td>
+                        </tr>
+                        <tr>
+                            <td class="col1">Country</td>
+                            <td class="col2">México</td>
+                        </tr>
+                        <tr>
+                            <td class="col1">Pets</td>
+                            <td class="col2">Dog and cat</td>
+                        </tr>
+                    </table>
+            </div>
+            <div class="side-block">
+                <p class="title">Contact me!</p>
+                <a href="https://www.twitter.com"><img src="../Media/img/twitter.svg" class="icon-2"></a>
+                <a href="https://www.hotmail.com"><img src="../Media/img/mail.svg" class="icon-2"></a>
+            </div>
+        </div>
+    </body>
+</html>

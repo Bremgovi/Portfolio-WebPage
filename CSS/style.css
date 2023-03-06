@@ -1,0 +1,358 @@
+/*COLORS*/
+/*
+#080613
+#262E3A
+#dddddd
+#ffffff
+#4c4a54
+*/
+.wallpaper {
+    background-image: url(../Media/img/fondo.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    background-color: #262E3A;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    width: 90%;
+    height: 60px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+p {
+    color: #dddddd;
+    display: block;
+    margin-block-start: 0.2em;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+li {
+    color: #dddddd;
+    display: block;
+}
+
+p.title {
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+
+p.text {
+    font-size: 1.1rem;
+}
+
+ul.nav {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+}
+
+ul.nav li {
+    margin-right: 1rem;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+div.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* Add space between the boxes */
+}
+
+div.main-block {
+    position: relative;
+    width: 60%;
+    height: auto;
+    max-width: 800px;
+    float: left;
+    margin-left: 4%;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+div.block-1 {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    background-color: #262E3A;
+    float: left;
+    margin-left: 4%;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+div.block-2 {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    background-color: #262E3A;
+    float: left;
+    margin-left: 4%;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+div.secondary-block {
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-right: 5%;
+}
+
+div.side-block {
+    height: 40%;
+    margin-bottom: 20%;
+    background-color: #262E3A;
+    border-radius: 20px;
+    overflow: auto;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+#repos-container {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5%;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+.repo {
+    background-color: #1c1b1e;
+    width: 35%;
+    height: 200px;
+    border-radius: 15px;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    overflow: hidden;
+    padding: 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.repo-img {
+    /* Set width and height of the <img> element */
+    width: 60px;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+    position: absolute;
+    top: -70px;
+    left: calc(50% - 30px);
+}
+
+.repo:hover {
+    transform: scale(1.05);
+    opacity: 0.7;
+    transition: 0.4s ease;
+}
+  
+
+#repos-container .repo h2 {
+    margin-top: 30%;
+    font-size: 1.50rem;
+    color: #dddddd;
+    text-align: center;
+    font-weight: 900;
+}
+
+#repos-container .repo p {
+    font-size: 1.25rem;
+    color: #dddddd;
+}
+
+
+
+table {
+    margin: 0 auto;
+    color: #ffffff;
+    table-layout: fixed;
+    width: 90%;
+}
+
+td.col1 {
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+td.col2 {
+    text-align: right;
+    font-size: 1.3rem;
+}
+
+div.profile {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    height: 0;
+    padding-bottom: 30%;
+    position: relative;
+    overflow: hidden;
+    margin-left: 4%;
+    margin-top: 4%;
+}
+
+img.profile {
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    width: 100%;
+    /* Make the image fill the circle shape */
+    height: 100%;
+    /* Make the image fill the circle shape */
+    object-fit: cover;
+    /* Scale the image to cover the entire circle shape */
+}
+
+img.profile:hover{
+    transform: scale(1.01);
+    opacity: 0.7;
+    transition: 0.4s ease;
+}
+
+div.description {
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;
+    margin-left: 4%;
+    margin-top: 4%;
+    height: 30%;
+    max-height: 500px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+img.icon {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+}
+
+img.icon-2 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+div.main-text {
+    position: relative;
+    width: 92%;
+    margin-left: 4%;
+    margin-top: 2%;
+    max-height: 300px;
+    overflow: auto;
+}
+
+li a {
+    background-color: #262E3A;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.4s ease;
+}
+
+nav ul li a:hover {
+    background-color: #4c4a54;
+    color: #ffffff;
+}
+
+li img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+li span {
+    vertical-align: middle;
+}
+
+nav ul li a.active {
+    background-color: #4c4a54;
+}
+
+/*MEDIA RESPONSIVE*/
+@media (max-width: 768px) {
+    div.main-block {
+        width: 100%;
+        margin: 20px 0;
+        padding-bottom: 80%;
+    }
+
+    div.block-1 {
+        width: 90%;
+    }
+
+    div.secondary-block {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 20px 0;
+    }
+
+    div.side-block {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    ul.nav {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 700px) {
+    div.main-block {
+        padding-bottom: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    div.main-block {
+        padding-bottom: 140%;
+    }
+}
+
+@media (max-width: 420px) {
+    div.main-block {
+        padding-bottom: 160%;
+    }
+}
+
+@media (max-width: 380px) {
+    div.main-block {
+        padding-bottom: 200%;
+    }
+}
