@@ -47,7 +47,7 @@ const images = [
 
 fetch(`https://api.github.com/user/repos`, {
   headers: {
-    Authorization: `Bearer ${token}`
+    'Authorization': `token ${token}`
   }
 })
   .then(response => response.json())
@@ -77,3 +77,4 @@ fetch(`https://api.github.com/user/repos`, {
       reposContainer.appendChild(repoContainer);
     });
   });
+
