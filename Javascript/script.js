@@ -36,8 +36,8 @@ function selectOption(option) {
 }
 
 //Acceder a la API
-const username = 'username';
-const token = 'token';
+const username = Bremgovi;
+const token = process.env.TOKEN_KEY;
 const images = [
   '../Media/icons/css.png',
   '../Media/icons/html.png',
@@ -48,7 +48,7 @@ const images = [
 
 
 
-fetch(`https://api.github.com/users/${username}/repos`, {
+fetch(`https://api.github.com/users/repos`, {
   headers: {
     Authorization: `Bearer ${token}`
   }
